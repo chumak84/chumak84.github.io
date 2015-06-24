@@ -15,5 +15,5 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
-*.manifest diff=binary
-*.deploy  diff=binary
+*.manifest binary
+*.deploy binary
