@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="itime.exe" version="1.0.0.4" publicKeyToken="51ac3dfa6b713fcc" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="itime" version="1.0.5654.37936" language="neutral" processorArchitecture="msil" />
+    <commandLine file="itime.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="itime.exe" size="361408">
+      <assemblyIdentity name="itime" version="1.0.5654.37936" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>mZ4c7FEl3qV3RqNDHoGFQ9WAP9srKcixLN59/0s97P4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="itimem.dll" size="8704">
+      <assemblyIdentity name="itimem" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LGAc+JMnXenusm9xtSlkmfsfEuA+Bziq1N1j+EI3R3k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="itimevm.dll" size="7680">
+      <assemblyIdentity name="itimevm" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>04qcHVx9NrgxplE6ILMAGjiHLGYxpmSKA8vTKn/HVjQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="itime.exe.config" size="1033">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Y5zAn3IhgzFXas1Ti2wpcBrfUZGrY8QTVAakqsFDyOc=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SADISTPC\Дмитро" issuerKeyHash="8b47b866f04edf7c8c248bf21dd53785d8ae4c98" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>UbqmJOWWefEMEm15o6QMo3OTDJxVqsPRCy3SLmz7ENs=</DigestValue></Reference></SignedInfo><SignatureValue>TOPutgCj05TfiIyP6aGHXYLXOTvW1ZKM0kPNLBdWrtm9NGgE7yLZ9F6KmwmVwDZe8JHl5iJb4mzMDLeyYbThSwsyFybFnY037melKvzocK1H5IzevzQVXwfjSxkn901eOpSz8OX/DuWnZ7W0RRHQlhJy1L5hp+PnoYNrxvrOIcE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xyW2jaGF5w5VVfsDS4ppu32AGUfW9qCoXoPA517bzOre56DM50Sq1dF9rNgCmq4OfBY795IueUfh7TdByYnHnTpn9SE9qaZAXJgu4//QHMBAkF2cYa2AUhThJOMfd1M/IBlkf9T+mD+kcsK3krx/i9QHrbruN+yF9Rz2LrLSZ98=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="db10fb6c2ed22d0bd1c3aa559c0c9373a30ca4a3796d120cf17996e524a6ba51" Description="" Url=""><as:assemblyIdentity name="itime.exe" version="1.0.0.4" publicKeyToken="51ac3dfa6b713fcc" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SADISTPC\Дмитро</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jlE08jZ1miPahlyrNe66/AHlqG6QxWNNXgkoz9JlSsY=</DigestValue></Reference></SignedInfo><SignatureValue>bE+28cgsPQIj3Wv4LRjzJhfLTsZC+LdQlXQb2XxHtRE8Kk1fK9/GurhzwTxNFecErDKC0x2lHECWV0/Hj9SK8gb3dutp4AG6a/UYZWYIMBzjoqiG0RTQax1PY2FHl2BGxksRPueVh0XaTOi54A2rPoLu5AhV3rzQ14hzYlsZ4VY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xyW2jaGF5w5VVfsDS4ppu32AGUfW9qCoXoPA517bzOre56DM50Sq1dF9rNgCmq4OfBY795IueUfh7TdByYnHnTpn9SE9qaZAXJgu4//QHMBAkF2cYa2AUhThJOMfd1M/IBlkf9T+mD+kcsK3krx/i9QHrbruN+yF9Rz2LrLSZ98=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQbzQ/QV+rHKJDcuJEENW19zANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4AUwBBAEQASQBTAFQAUABDAFwEFAQ8BDgEQgRABD4wHhcNMTUwNjI0MjAxNDI2WhcNMTYwNjI0MDIxNDI2WjApMScwJQYDVQQDHh4AUwBBAEQASQBTAFQAUABDAFwEFAQ8BDgEQgRABD4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMclto2hhecOVVX7A0uKabt9gBlH1vagqF6DwOde28zq3uegzOdEqtXRfazYApquDnwWO/eSLnlH4e03QcmJx506Z/UhPammQFyYLuP/0BzAQJBdnGGtgFIU4STjH3dTPyAZZH/U/pg/pHLCt5K8f4vUB6267jfshfUc9i6y0mffAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAxY5j/4ufvlZAE73n/Pp6onQ6vtOotHQ0Bf3i4jxEDFiaenAXT1Zdc8hCclhCLH9+YKwHgx0a+yLRTIhgW3bU+CpyVudTH8NQ2P4lBNdRr+QKMU8inxCE0EDUfKH5nhJOsxXginlba1dIm0XzwEK0o+sV6Ct71HRKEezvLxkP75Q=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
